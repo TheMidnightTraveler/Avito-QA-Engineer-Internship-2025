@@ -7,9 +7,9 @@
 
 ## Установка
 
-### 1. Склонируйте репозиторий или скачайте
+### 1. Склонируйте или скачайте репозиторий
 ```bash
-git clone 
+git clone git@github.com:TheMidnightTraveler/Avito-QA-Engineer-Internship-2025.git
 ```
 
 ### 2. Перейдите в папку с репозиторием
@@ -22,11 +22,11 @@ python -m venv .venv
 ### 4. Активируйте виртуальное окружение
 - На Windows через cmd.exe:
 ```bash
-C:\> <venv>\Scripts\activate.bat
+.\.venv\Scripts\activate.bat
 ```
 - На POSIX через bash/zsh:
 ```bash
-source <venv>/bin/activate
+source .venv./bin/activate
 ```
 
 ### 5. Установите зависимости
